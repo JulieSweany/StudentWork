@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab02.css">
+    <title>The Fibonacci Sequence</title>
+
+    <script>
+        function getSequence() {
+            var a = 1;
+            var b = 1;
+            var array = [];
+
+            for (var counter = 0; counter < 20; counter++) {
+                var c = a + b;
+                array[counter] = " " + c;
+                a = b;
+                b = c;
+                console.log(array[counter]);
+            }
+            return array;
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Fibonacci Generator</h1>
+
+
+    <div class="buttons">
+        <button type="button" onclick="document.getElementById('numbers').innerHTML = getSequence()">
+            Generate</button>
+    </div>
+
+
+    <div id="output">
+        <p id="numbers"></p>
+    </div>
+
+
+    
+    <div class="buttons">
+        <button type="button" onclick="document.getElementById('numbers').innerHTML = ''">
+            Reset</button>
+    </div>
+
+
+    
+</body>
+
+</html>

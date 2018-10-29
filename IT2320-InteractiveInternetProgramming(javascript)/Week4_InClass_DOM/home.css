@@ -1,0 +1,51 @@
+h1
+{
+    color: teal;
+}
+
+section h1
+{
+    color: white;
+}
+
+article
+{
+    background-color: lightseagreen;
+    width: 450px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p
+{
+    color: darkblue;
+}
+
+.blue
+{
+    color: darkblue;
+}
+
+.blueviolet
+{
+    color: blueviolet;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.border
+{
+    border-color: violet;
+    border-style: solid;
+    padding: 2px;
+    margin: 2px;
+}
+
+button
+{
+    padding: 5px;
+    background-color: limegreen;
+    color: white;
+    font-size: 20px;    
+}

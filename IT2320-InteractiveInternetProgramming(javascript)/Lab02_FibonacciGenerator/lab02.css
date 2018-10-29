@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: auto;
+    background-color: ghostwhite;
+}
+h1 {text-align: center;
+    font-size: 9vw;
+    background-color: steelblue;
+    color: white;
+    margin: 0em 0em 1em 0em;
+    padding: 1em 0em 1em 0em;
+    text-shadow: 4px 4px 10px black;
+    box-shadow: 7px 15px 15px lightgrey;
+    letter-spacing: 1px;
+
+}
+.buttons {
+    display: block;
+    width: 45%;
+   margin:auto;
+}
+
+button {
+    width: 100%;
+    height: 65%;
+    font-size: 7vw; 
+    color: white;
+    background-color: steelblue;
+    border-radius: .5em;
+    box-shadow: 7px 10px 10px lightgrey;
+    text-shadow: 4px 4px 10px black;
+    letter-spacing: 2px;
+    padding: 5px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+button:hover {
+    background-color: lightskyblue;
+}
+
+#output{
+    border: .25em solid steelblue;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2.5em;
+    min-height: 18em;
+    border-radius: 2em;
+}
+
+p {
+    font-size: 5vw;
+    text-align: center;
+    padding: 2.5em;
+    line-height: 1.5;
+}
+
+
+@media only screen and (min-width: 750px) {
+    h1 {
+        margin: 0em 0em 1em 0em;
+        padding: .75em 0em .5em 0em;
+        text-shadow: 4px 4px 10px black;
+        box-shadow: 7px 15px 15px lightgrey;
+        letter-spacing: 1px;
+    
+    }
+    .buttons {
+        width: 25%;
+    }
+    button {
+        height: 35%;
+        font-size: 4vw; 
+        
+    }
+    #output{
+        width: 90%;
+        margin-bottom: 3em;
+        min-height: 20em;
+    }
+    p {
+        font-size: 4vw;
+        padding: 1.5em;
+    }
+}
+@media only screen and (min-width: 1120px) {
+    h1 {
+        margin: 0em 0em 1em 0em;
+        padding: .25em 0em .25em 0em;
+        text-shadow: 4px 4px 10px black;
+        box-shadow: 7px 15px 15px lightgrey;
+        font-size: 7vw;
+    
+    }
+    .buttons {
+        width: 15%;
+    }
+    button {
+        height: 35%;
+        font-size: 2vw; 
+        
+    }
+    p {
+        font-size: 3vw;
+        padding: 1em;
+    }
+}

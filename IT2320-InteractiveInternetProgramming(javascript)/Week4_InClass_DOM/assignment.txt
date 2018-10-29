@@ -1,0 +1,37 @@
+1. Create a function called hello. It should return "hello!". 
+Call this function at the top of your javascript code and write the output to console.log.
+
+2. Create a function called calculate(). 
+This function should take one parameter called x. 
+Inside this function:
+a) add 2 to x if x > 10 and return the value.
+b) add 4 to x if x <= 10 and return the value.
+Call this function at the top of your javascript code with x=20 and write the output to console.log.
+Call this function at the top of your javascript code with x=5 and write the output to console.log.
+
+3. Create a function called add().
+Inside this function, add numbers 1 to 10 efficiently without adding one by one.
+Return the result.
+Call this function at the top of your javascript code and write the output to console.log
+
+3. Using javascript DOM, change the content of "div1" to display "This is the new div content".
+
+4. Using javascript DOM, change the background color of "div1" to "orange".
+
+5. Using javascript DOM, change the background color of all paragraphs to "yellow".
+
+6. Using javascript DOM, change the text of button "Btn1" to say 'You clicked me" when the button is clicked.
+
+7. Change the code so that you dont have any script call in html (use unobstrusive js technique).
+
+8. Using javascript, when the button is clicked, set the css class of all the divs to "blueviolet".
+
+9. Using javascript, when the button is clicked, add "border" to the existing css class of all the divs.
+
+10. Using javascript, when the mouse is over the button (event: mouseover), change the button text to say "Mouseover". 
+When is the mouse is out (event:mouseout), change the button text to say "Click me!".
+Use unobstrusive javascript for these events.
+
+
+
+

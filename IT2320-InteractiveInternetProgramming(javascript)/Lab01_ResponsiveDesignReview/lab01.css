@@ -1,0 +1,282 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: gray;
+	}
+
+body {
+	background-color: black;
+    width: 100%;
+	margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+header {
+	width: 100%;
+    margin: auto;
+    background-color: black;	
+}
+header h2{
+    font-size: 120%;
+    color: orange;
+    padding-left: 8px;
+}
+header h1{
+    font-size: 250%;
+    color: white;
+    padding-left: 5px;
+
+}
+header img {
+    max-width: 100%;
+}
+
+
+
+
+
+nav ul {
+	width: 100%;
+    list-style-type: none;
+    background-color: midnightblue;
+}
+nav ul li {
+	width: 33.33%;
+	float: left;
+}
+nav ul li a {
+	padding-top: .25em;
+	padding-bottom: .25em;
+	display: block;
+	list-style-type: none;
+	text-align: center;
+	background-color: midnightblue;
+	color: white;
+	text-decoration: none;
+    font-size: 1em;
+}
+nav ul li a:hover, a:focus {
+	color: orange;
+}
+nav ul li a.current {
+	color: gray;
+}
+
+
+
+
+#tilted {
+    -ms-transform: rotate(15deg); 
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg); 
+    float: right;
+    max-width: 150px;
+    margin: 15px 12px 12px 12px;
+}
+
+
+
+
+
+section {
+    margin: 8px 5px 0px;
+    padding: 8px;
+    background-color: white;
+}
+section ul {
+    margin-top: 20px;
+}
+section ul li a {
+    text-decoration: none;
+}
+
+ul img {
+    max-width: 60px;
+    float: left;
+    margin: 4px 8px 0px 0px;
+}
+ul p {
+    margin-bottom: 24px;
+
+}
+li {
+    color: maroon;
+    font-size: 1.5em;
+    font-weight: bold;
+	list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+section h1 {
+color:midnightblue;
+font-size: 1.75em;
+}
+
+article .address {
+    font-size: .85em;
+    color: midnightblue;
+    font-weight: bold;
+}
+article h2 {
+    color: black;
+    padding: 2px 5px 5px;
+    margin: 18px 0px 10px;
+    background-color: orange;
+    font-size: 1.25em;
+    font-style: plain;
+    box-shadow: 2px 5px 8px gray;
+
+    }
+article p, aside p{
+    font-size: .85em;
+    margin-bottom: 10px;
+}    
+aside {
+    margin: 8px 5px;
+    padding: 8px;
+    background-image: linear-gradient(white,lightskyblue);
+}
+aside h1 {
+    color: maroon;
+    font-size: 1.75em;
+    font-style: bold;
+
+    }
+aside h2 {
+    color: midnightblue;
+    padding: 8px 0px 0px;
+    font-size: 1.25em;
+    font-style: plain;
+    margin-bottom: 5px;
+    }
+aside img {
+    float: left;
+    max-width:100px;
+    border: 2px solid midnightblue;
+    border-radius: 15px;
+    margin: 0px 10px 5px 0px;
+
+}
+
+
+.places_head{
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+    padding: 1em 0em .5em;
+}
+.places_img{
+    float: left;
+    margin-right: .5em;
+}
+
+
+.contact_info{
+    color: maroon;
+    font-weight: bold;
+    padding: 1em 0em 1em 0em;
+    background-color: white;
+    clear: both;
+    text-align: center;
+}
+.places_copy{
+    background-color: white;
+    padding:  0em .5em .5em .5em;
+
+}
+.places_copy_final{
+    background-color: white;
+    padding:  0em .5em 3em .5em;
+
+}
+
+
+footer {
+    background-color: midnightblue;
+    padding: 8px 8px 15px;
+    color: white;
+    font-size: .5em
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+@media only screen and (min-width: 450px) {
+    
+    header img {
+        max-width: 30%;
+        margin-right: 5px;
+        float: left;
+
+    }
+    header h2{
+        padding-left: 5px;
+
+        font-size: 4vw;
+        padding-top: 8px;
+    }
+    
+    header h1{
+        font-size: 8.5vw;
+        padding-left: 5px;
+    }
+    
+    nav{
+        clear: both;
+    }
+    article p, aside p, .address {
+        font-size: 1em;
+    }  
+    .places_img{
+        float: left;
+        margin-right: 8px;
+    }
+    .contact_info{
+        float: right;
+
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    section{
+        float: left;        
+        margin-right: 0px;
+        max-width: 60%;
+    }
+    aside{
+        float: right;
+        max-width: 34%;
+        margin: 8px 5px 5px 0px;
+    }
+    footer{
+        clear: both;
+    }
+}
+@media only screen and (min-width: 850px) {
+    aside{
+        max-width: 34.5%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    header h1{
+        font-size: 8.5vw;
+        padding-left: 5px;
+    }
+}

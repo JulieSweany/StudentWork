@@ -1,0 +1,16 @@
+#main {
+    margin-top: 5px;
+}
+
+.divStyle {
+    border: solid 1px black;
+    background-color: white;
+    float: left;
+    color: red;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.black {
+    background-color: black;
+}

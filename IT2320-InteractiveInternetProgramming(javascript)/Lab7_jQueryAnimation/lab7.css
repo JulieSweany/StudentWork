@@ -1,0 +1,23 @@
+﻿
+body {
+    padding: 0px;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    margin-left: 0px;
+    position: absolute;
+}
+
+#buttonPanel {
+    margin-bottom:.5em;
+}
+
+#box {
+    width: 50px;
+    height: 50px;
+    background-color: darkblue;
+    position: absolute;
+}
