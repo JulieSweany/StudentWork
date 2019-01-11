@@ -1,0 +1,359 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: gray;
+	}
+
+body {
+	background-color: black;
+    width: 100%;
+	margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	width: 100%;
+    margin: auto;
+    background-color: black;	
+}
+
+header h2{
+    font-size: 120%;
+    color: orange;
+    padding-left: 1em;
+    letter-spacing: 1px;
+}
+header h1{
+    font-size: 250%;
+    color: white;
+    padding-left: .4em;
+
+}
+header img {
+    max-width: 100%;
+}
+
+/* switch images for smallest screens*/
+#smallDevices {
+    display: block;
+}
+
+#largeDevices {
+    display: none;
+}
+
+nav ul {
+	width: 100%;
+    list-style-type: none;
+    background-color: midnightblue;
+}
+
+nav ul li {
+	width: 33.33%;
+	float: left;
+}
+
+nav ul li a {
+	padding-top: .25em;
+	padding-bottom: .25em;
+	display: block;
+	list-style-type: none;
+	text-align: center;
+	background-color: midnightblue;
+	color: white;
+	text-decoration: none;
+    font-size: .75em;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover, a:focus {
+	color: orange;
+}
+
+nav ul li a.current {
+	color: gray;
+}
+
+#tilted {
+    -ms-transform: rotate(15deg); 
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg); 
+    float: right;
+    max-width: 150px;
+    margin: 15px 12px 12px 12px;
+}
+
+article {
+    margin: 8px 5px 0px;
+    padding: .75em;
+    background-color: white;
+}
+
+article h1 {
+    padding-top: .75em;
+}
+
+article ul {
+    margin-top: 20px;
+}
+
+article ul li a {
+    text-decoration: none;
+    font-size: .85em;
+}
+
+article ul li a:hover {
+    color: darkblue;
+}
+
+ul img {
+    max-width: 18%;
+    float: left;
+    margin: 4px 8px 0px 0px;
+}
+
+ul p {
+    margin-bottom: 24px;
+}
+
+li {
+    color: maroon;
+    font-size: 1.5em;
+    font-weight: bold;
+	list-style-type: none;
+}
+
+article h1 {
+color:midnightblue;
+font-size: 1.75em;
+}
+
+section .address {
+    font-size: .85em;
+    color: midnightblue;
+    font-weight: bold;
+}
+
+section h2 {
+    color: black;
+    padding: 2px 5px 5px;
+    margin: 18px 0px 10px;
+    background-color: orange;
+    font-size: 1.25em;
+    font-style: plain;
+    box-shadow: 2px 5px 8px gray;
+    }
+
+section p, aside p{
+    font-size: .85em;
+    margin-bottom: 10px;
+}    
+
+aside {
+    margin: 8px 5px;
+    padding: .75em;
+    background-image: linear-gradient(120deg, white,lightskyblue);
+}
+
+aside h1 {
+    color: maroon;
+    font-size: 1.75em;
+    font-style: bold;
+    }
+
+aside h2 {
+    color: midnightblue;
+    padding: 8px 0px 0px;
+    font-size: 1.25em;
+    font-style: plain;
+    margin-bottom: 5px;
+    }
+
+aside img {
+    float: left;
+    max-width:100px;
+    border: 2px solid midnightblue;
+    border-radius: 15px;
+    margin: 0px 10px 5px 0px;
+}
+
+.places_head {
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+    padding: 1em 0em .5em;
+}
+.places_img {
+    float: left;
+    margin-right: .5em;
+}
+
+.contact_info {
+    color: maroon;
+    font-weight: bold;
+    padding: 1em 0em 1em 0em;
+    background-color: white;
+    clear: both;
+    text-align: center;
+}
+
+.places_copy {
+    background-color: white;
+    padding:  .75em .75em 0em .75em;
+}
+
+.places_copy_final {
+    background-color: white;
+    padding:  .75em .75em 3em .75em;
+}
+
+footer {
+    background-color: midnightblue;
+    padding: 8px 8px 15px;
+    color: white;
+    font-size: .5em
+}
+footer p{
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 601px) {  
+    header img {
+        max-width: 30%;
+        margin-right: 5px;
+        float: left;
+    }
+
+    header h2{
+        padding-left: 5px;
+        font-size: 4vw;
+        padding-top: 8px;
+    }
+    
+    header h1{
+        font-size: 8.5vw;
+        padding-left: 5px;
+    }
+    
+    nav {
+        clear: both;
+    }
+
+    article {
+        padding: 1.25em 2.25em .75em 2.25em;
+    }
+    
+    aside {
+        padding: 1.25em 2.25em .75em 2.25em;
+    }
+
+    article p, aside p, .address {
+        font-size: 1em;
+    }  
+
+    ul img {
+        max-width: 15%;
+    }
+
+    .places_img{
+        float: left;
+        margin-right: 8px;
+    }
+
+    .contact_info{
+        float: right;
+
+        text-align: left;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    article {
+        float: left;        
+        margin-right: 0px;
+        max-width: 58%;
+        padding: .75em;
+    }
+
+    article h1 {
+        padding-top: 0em;
+    }
+
+    aside {
+        float: right;
+        max-width: 32%;
+        padding:.75em;
+    }
+
+    footer {
+        clear: both;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    article {
+        padding: .75em 1.25em .75em 1.25em;
+        max-width: 58%;
+    }
+
+    aside {
+        padding: .75em 1.25em .75em 1.25em;        
+        max-width: 32%;
+    }
+    
+    ul img {
+        max-width: 18%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    header h1 {
+        font-size: 8.5vw;
+        padding-left: 5px;
+    }
+
+    article {
+        max-width: 60%;
+    }
+
+    .column1 {
+        max-width: 45%;
+        float: left;
+    }
+
+    .column2 {
+        max-width: 45%;
+        float: left;
+        margin-left: 1.5em;
+    }
+}
+
+
+
+/*
+Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {...} 
+
+Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...} 
+
+Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...} 
+
+Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...} 
+
+Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}
+
+*/

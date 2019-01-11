@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Traversing the DOM           
+        </title>
+        <link rel="stylesheet" type="text/css" href="home.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="home.js"></script>
+    </head>
+    <body>Body is here
+        <div id="btnPanel">
+                <button id="btn1">Show Parent</button>
+                <button id="btn2">Show Siblings</button>
+                <button id="btn3">Show Children</button>
+                <button id="btn4">Show Descendants</button>
+                <button id="btn5">Show Ancestors</button><br>
+                <button id="btn6">Show Next Sibling</button> 
+                <button id="btn7">Show All Siblings After</button>
+                <button id="btn8">Show All Siblings Until</button><br>
+                <button id="btn9">Show Closest Ancestor</button><br>
+                <button id="btn10">Show Previous Sibling</button>
+                <button id="btn11">Show All Previous Siblings</button>
+                <button id="btn12">Show All Previous Siblings Until</button><br>
+                <button id="btn13">Show First Element</button>
+                <button id="btn14">Show Last Element</button>
+                <button id="btn15">Show Filtered Elements</button>
+                <button id="btn16">Show not() Result</button>
+                <button id="btn17">Show slice() Result</button>
+
+        </div>
+        <div id="content">
+            Top DIV
+            <article id="container"> 
+                Container is here
+                <h1>Container Heading</h1> 
+                <h3>Container Subheading</h3>
+                <p>A paragraph in the article with id "container"</p>          
+                <p>Another paragraph in that article</p>          
+                <section id="wrapperSection1" class="wrapper">
+                    <h2>Section 1</h2>
+                    <div id="wrapper1"> Div Wrapper 1
+                            <p>This is para 1</p>
+                            <p class="para">This is para 2</p>
+                            <p class="para" id="special">This is para 3</p>
+                            <p>This is para 4</p>                        
+                    </div>
+                    <a href="http://www.w3schools.com">W3schools Link</a>
+                    <div id="wrapper2"> Div Wrapper 2
+                        <p>This is a para</p>
+                    </div>
+                </section>
+                <h1>A Heading Between Wrapper Sections 1 and 2</h1> 
+                <section id="wrapperSection2" class="wrapper">
+                    <h2>Section 2</h2>
+                    <p class="para">This is para 1</p>
+                    <p class="para">This is para 2</p>
+                    <p class="para">This is para 3</p>
+                    <p class="para">This is para 4</p>
+                    <a href="http://www.google.com">Google Link</a>
+                    <div>
+                        <p class="para">This is a para too</p>
+                    </div>
+                </section>
+                <section id="wrapperSection3" class="wrapper"><h2>Section 3</h2></section>
+            </article>
+        </div>
+    </body>
+</html>

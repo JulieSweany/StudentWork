@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: .25em;
+    color: blueviolet;
+}
+
+section {
+    padding: 1em 1em 2em 1em;
+}
+
+#assignment {
+    background-color: lavender;
+    min-height: 500px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+button {
+    display: inline-block;
+    padding: .2em .4em;
+    background-color: blueviolet;
+    color: white;
+    border-radius: .5em;
+}
+
+button:hover {
+    background-color: darkslateblue;
+}
+label {
+    padding-right: .25em;
+    padding-bottom: 1em;
+}
+
+input {
+    padding-right: 1em;
+    margin-bottom: 1em;
+
+}
+
+.inputWrapper {
+    padding: 0em;
+    margin: 0em;
+}
+
+#inputs {
+    margin-top: .5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.petText {
+    font-size: .8em;
+    margin-bottom: .25em;
+}
+
+.petName {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+footer {
+    font-size: .75em;
+    height: 1.5em;
+    text-align: center;
+    padding-top: .5em;
+}
