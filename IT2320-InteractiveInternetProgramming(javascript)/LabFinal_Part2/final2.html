@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        JQuery Public API using Ajax
+    </title>
+    <link rel="stylesheet" type="text/css" href="final2.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="final2.js"></script>
+</head>
+
+<body>
+    <article>
+        <section>
+            <header>Flikr Public Feed</header>
+            <input id="photosearch" type="text">
+            <button id="btn1">Search Flickr</button>
+            <div id="flikrresults">Results</div>
+        </section>
+        <section>
+            <header>PetFinder Public Feed</header>
+            <input id="breedsearch" type="text">
+            <button id="btn2">Get Breed List</button>
+            <div id="breedresults">Results</div>
+        </section>
+        <section>
+            <header>PetFinder pet.find Method</header>
+            <div id="inputs">
+                <label for="animaltype">Type of Animal</label><input id="animaltype" type="text"><br>
+                <label for="breed">Breed</label><input id="breed" type="text"><br>
+                <label for="size">Size</label><input id="size" type="text"><br>
+                <label for="sex">Sex</label><input id="sex" type="text"><br>
+                <label for="location">Location</label><input id="location" type="text"><br>
+                <label for="age">Age</label><input id="age" type="text">
+                <button id="btn3">Get Matched Pets</button>
+            </div>
+            <div id="petresults">Results</div>
+        </section>
+        <section class="assignment">
+                <header>PetFinder shelter.find Method</header>
+                <div id="inputs">
+                    <label for="location2">Location</label><input id="location2" type="text">
+                    <button id="btn4">Get Local Shelters</button>
+                </div>
+                <div id="shelterlocationresults">Results</div>
+        </section>
+        <section class="assignment">
+                <header>PetFinder shelter.getPets Method</header>
+                <div id="inputs">
+                    <label for="id">Shelter ID</label><input id="id" type="text">
+                    <button id="btn5">Get Shelter's Pets</button>
+                </div>
+                <div id="shelterpetresults">Results</div>
+        </section>
+    </article>
+
+    <footer>
+        IT2320 Interactive Internet Programming&ndash;Fall 2018&ndash;Final Project, Part 2&ndash;Julie Sweany
+    </footer>
+</body>
+
+</html>
